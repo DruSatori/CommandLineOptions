@@ -49,7 +49,7 @@ public class Options {
         }
     }
     
-    var verbose : Bool {
+    public var verbose : Bool {
         get {
             return params.keys.contains("verbose") ||
                 params.keys.contains("v")
