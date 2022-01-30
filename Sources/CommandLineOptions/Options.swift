@@ -8,7 +8,7 @@
 import Foundation
 
 public class Options {
-    internal var params : Dictionary<String, String?> = Dictionary<String,String?>()
+    var params : Dictionary<String, String?> = Dictionary<String,String?>()
 
     // anything starting with a - or -- is a key
     // any key containing an = is treated both, key and value split by the =
