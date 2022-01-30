@@ -14,7 +14,7 @@ properties around the key names.  In the library, there is a HelpOptions and
 LoginOptions extension already in place to handle --user, --password, --host,
 --help and --verbose(-v) options.
 
-`
+```
 import CommandLineOptions
 
 let opts : Options = Options(args: CommandLine.arguments)
@@ -22,4 +22,4 @@ let opts : Options = Options(args: CommandLine.arguments)
 if (opts.verbose) {
     print("Verbose is enabled")
 }
-`
+```
